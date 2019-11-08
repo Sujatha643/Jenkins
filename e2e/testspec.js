@@ -1,4 +1,4 @@
-var Excel = require('C:/Program Files (x86)/Jenkins/workspace/SampleLogin-pipeline/exceljs');
+var Excel = require('C:/Program Files (x86)/Jenkins/workspace/SampleLogin-pipeline/node_modules/exceljs');
 
 var inboundWorkbook = new Excel.Workbook();
 inboundWorkbook.xlsx.readFile("C:/Program Files (x86)/Jenkins/workspace/SampleLogin-pipeline/e2e/Book1.xlsx").then(function() {
